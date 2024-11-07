@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: gophish
+Version: 0.4.0
+Summary: Python API Client for Gophish
+Home-page: https://github.com/gophish/api-client-python
+Author: Jordan Wright
+Author-email: python@getgophish.com
+License: MIT
+Download-URL: https://github.com/gophish/api-client-python/tarball/0.4.0
+Description: UNKNOWN
+Keywords: gophish
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3

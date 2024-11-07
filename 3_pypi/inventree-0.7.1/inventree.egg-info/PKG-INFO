@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: inventree
+Version: 0.7.1
+Summary: Python interface for InvenTree inventory management system
+Home-page: https://github.com/inventree/inventree-python/
+Author: Oliver Walters
+Author-email: oliver.henry.walters@gmail.com
+License: MIT
+Keywords: bom,bill of materials,stock,inventory,management,barcode
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI](https://img.shields.io/pypi/v/inventree)](https://pypi.org/project/inventree/)
+![Build Status](https://github.com/inventree/inventree-python/actions/workflows/ci.yaml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/inventree/inventree-python/badge.svg)](https://coveralls.io/github/inventree/inventree-python)
+![PEP](https://github.com/inventree/inventree-python/actions/workflows/pep.yaml/badge.svg)
+
+## InvenTree Python Interface
+
+Python library for communication with the [InvenTree parts management system](https:///github.com/inventree/inventree) using the integrated REST API.
+
+This library provides a class-based interface for interacting with the database. Each database table is represented as a class object which provides features analogous to the REST CRUD endpoints (Create, Retrieve, Update, Destroy).
+
+## Installation
+
+The InvenTree python library can be easily installed using PIP:
+
+```
+pip install inventree
+```
+
+## Documentation
+
+Refer to the [InvenTree documentation](https://inventree.readthedocs.io/en/latest/extend/python/)

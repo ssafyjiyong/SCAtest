@@ -1,0 +1,12 @@
+h2>=2.4,<3.0
+hyperframe>=3.2,<4.0
+
+[:platform_python_implementation == "PyPy" and python_full_version < "2.7.9"]
+cryptography<1.0
+
+[:python_full_version < "2.7.9"]
+pyOpenSSL>=0.15
+service_identity>=14.0.0
+
+[fast]
+pycohttpparser

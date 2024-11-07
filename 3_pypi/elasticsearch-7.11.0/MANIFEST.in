@@ -1,0 +1,15 @@
+include AUTHORS
+include Changelog.rst
+include CONTRIBUTING.md
+include LICENSE
+include MANIFEST.in
+include README.rst
+include README
+include setup.py
+recursive-include elasticsearch* py.typed *.pyi
+recursive-include docs/sphinx *
+
+prune docs/sphinx/_build
+prune test_elasticsearch
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

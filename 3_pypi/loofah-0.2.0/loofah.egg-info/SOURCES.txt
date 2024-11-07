@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+loofah.py
+setup.py
+loofah.egg-info/PKG-INFO
+loofah.egg-info/SOURCES.txt
+loofah.egg-info/dependency_links.txt
+loofah.egg-info/entry_points.txt
+loofah.egg-info/requires.txt
+loofah.egg-info/top_level.txt
